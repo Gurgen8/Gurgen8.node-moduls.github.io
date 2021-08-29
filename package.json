@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "lesson1 NodeJs",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "go": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "author": "Gurgen_Mkrtchyan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  },
+  "dependencies": {
+    "nodeman": "^1.1.2"
+  }
+}
